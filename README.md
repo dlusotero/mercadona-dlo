@@ -20,7 +20,7 @@ Por falta de tiempo no se realizaron mas test (unitarios y para el resto de enti
 Lo mismo con flyway, actualemnte trabajamos con el en la empresa faltaría añadir la dependencia al gradlew y crear el primer script donde se creen las tablas.
 
 OTROS COMENTARIOS:
-- Se emplea la arquitectura exagonal ya que bajo mi punto de vista permite un acoplamiento mínimo entre el modelo y cualquier elemento externo y cambiante.
+- Se emplea la arquitectura hexagonal ya que bajo mi punto de vista permite un acoplamiento mínimo entre el modelo y cualquier elemento externo y cambiante.
 - La carpeta com/mercadonarest/infraestructure/postgres tiene este nombre porque es la BD que empleariamos en PROD.
 - Lo subo en este repositorio porque no me deja clonar el repositorio que me habeis mandado.
 - Tome la decisión de realizar test de integración ya que me parecen los mas complicados de configurar. Incluso
